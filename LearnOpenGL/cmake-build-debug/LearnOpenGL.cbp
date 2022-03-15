@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LearnOpenGL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LearnOpenGL">
+				<Option output="/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/LearnOpenGL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wenjiayi/Desktop/LearnOpenGL/./glad/include"/>
+					<Add directory="/opt/homebrew/Cellar/glfw/3.3.6/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0_3/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0_3/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0_3/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0_3/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0_3/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 LearnOpenGL"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LearnOpenGL/fast">
+				<Option output="/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/LearnOpenGL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wenjiayi/Desktop/LearnOpenGL/./glad/include"/>
+					<Add directory="/opt/homebrew/Cellar/glfw/3.3.6/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0_3/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0_3/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0_3/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../../../../../include/c++/11/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0_3/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0_3/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 LearnOpenGL/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wenjiayi/Desktop/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wenjiayi/Desktop/LearnOpenGL/glad/src/glad.c">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/wenjiayi/Desktop/LearnOpenGL/main.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/wenjiayi/Desktop/LearnOpenGL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
